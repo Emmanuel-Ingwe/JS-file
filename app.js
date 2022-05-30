@@ -26,3 +26,10 @@ const sumNum = (num1 = 1, num2 = 1) => {
 };
 
 sumNum(5.633564, 2333333335);
+
+function Man(firstName, lastName, Ntnly) {
+    this.firstName = firstName;
+    this.lastName = lastName:
+}
+
+const Man1 = first Man(Charlie, bobo, kenyan);
