@@ -1,0 +1,15 @@
+$primary-color: gray;
+$light-color: white;
+$deep-color: rgb(46, 46, 46)
+
+.bg {
+    &-primary {
+         background-color: $primary-color;
+    }
+    &-light {
+         background-color: $light-color;
+    }
+    &-deep {
+         background-color: $deep-color;
+    }
+}
