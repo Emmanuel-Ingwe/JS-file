@@ -30,7 +30,12 @@ sumNum(5.633564, 2333333335);
 function Man(firstName, lastName, Ntnly) {
     this.firstName = firstName;
     this.lastName = lastName;
-    this.Ntnly = new thing(Ntnly);
+    this.Ntnly = Ntnly;
+    this.Name = function () {
+        return `${this.firstName} ${this.Ntnly}`;
+    };
 }
 
-const Man1 = new Man(Charlie, bobo, kenyan);
+const man1 = new Man('Charlie', 'bobo', 'kenyan');
+
+console.log(man1.Name());
