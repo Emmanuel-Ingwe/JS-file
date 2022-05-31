@@ -29,7 +29,8 @@ sumNum(5.633564, 2333333335);
 
 function Man(firstName, lastName, Ntnly) {
     this.firstName = firstName;
-    this.lastName = lastName:
+    this.lastName = lastName;
+    this.Ntnly = new thing(Ntnly);
 }
 
-const Man1 = first Man(Charlie, bobo, kenyan);
+const Man1 = new Man(Charlie, bobo, kenyan);
